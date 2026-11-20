@@ -1,3 +1,4 @@
+// En este archivo se guardan todas las variables y tipos de datos de cada viaje registrado
 class ViajeModel {
   final String lugar;
   final String ciudad;

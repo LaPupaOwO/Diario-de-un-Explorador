@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'providers/diario_provider.dart';
 import 'screens/home_screen.dart';
 
+// En el main se usa ChangeNotifierProvider, para que todas las pantallas puedan acceder al estado global de la aplicación (modo oscuro, nombre del usuario y total de viajes)
 void main() {
   runApp(
     ChangeNotifierProvider(
@@ -13,6 +14,7 @@ void main() {
   );
 }
 
+// Widget principal que arranca la aplicación mostrando la Pantalla 1 (HomeScreen)
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
